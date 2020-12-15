@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Contact Details</title>
+    </head>
+    <body>
+        <h3>My Contact Details :</h3>
+        <ul>
+            <li><strong>Address-</strong> 23, Yogesh Niwas, Nr. Smashan Bhumi, Dombivali(E), 421201</li>
+            <li><strong>Phone No.-</strong> 9623220247</li>
+            <li><strong>Email-</strong> gmatkar0@gmail.com</li>
+        </ul>
+        <hr size="3" noshade="">
+        <form action="mailTo:gmatkar0@gmail.com" method="POST" enctype="text/plain" >
+            <table>
+                <tr>
+                    <td><label for="name">Enter Name : </label></td>
+                    <td><input type="text" placeholder="Enter Name" name="Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Enter Email : </label></td>
+                    <td><input type="email" placeholder="Enter Email" name="Email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="msg">Your Message :</label></td>
+                    <td><textarea name="Message" id="" cols="30" rows="5" placeholder="Enter Message Here" required></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="Send Mail">
+        </form>
+    </body>
+</html>
